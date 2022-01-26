@@ -36,4 +36,4 @@ data = [
 ]
 
 exporter = ExportCsv(data)
-exporter.write_file('principles/srp/out.csv')
+exporter.write_file('solid_principles/srp/out.csv')

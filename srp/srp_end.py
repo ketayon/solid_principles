@@ -43,5 +43,5 @@ data = [
 formatter = DataFormater(data)
 formatted_data = formatter.prepare()
 
-writer = FileWriter('principles/srp/out.csv')
+writer = FileWriter('solid_principles/srp/out.csv')
 writer.write(formatted_data)

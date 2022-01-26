@@ -9,7 +9,7 @@ class TerminalPrinter:
 
 class FilePrinter:
     def write(self, msg):
-        with open('principles/dip/log.txt', 'a+', encoding='UTF8') as f:
+        with open('solid_principles/dip/log.txt', 'a+', encoding='UTF8') as f:
             f.write(f"{msg}\n")
 
 
